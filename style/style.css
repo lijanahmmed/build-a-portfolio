@@ -1,0 +1,44 @@
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.name{
+    color: rgba(253, 110, 10, 1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+.user-name{
+    font-weight: 900;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav li a button{
+    padding: 18px 35px;
+    color: aliceblue;
+    background-color: rgba(253, 110, 10, 1);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
